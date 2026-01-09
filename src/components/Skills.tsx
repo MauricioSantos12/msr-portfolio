@@ -38,10 +38,10 @@ const Skills: React.FC<SkillsProps> = ({ t, theme, lang }) => {
   const technicalSkills: Skill[] = [
     {
       name: {
-        EN: "Architecture",
-        ES: "Arquitectura",
+        EN: "React",
+        ES: "React",
       },
-      icon: Cpu,
+      icon: Layout,
       type: "technical",
     },
     {
@@ -54,18 +54,18 @@ const Skills: React.FC<SkillsProps> = ({ t, theme, lang }) => {
     },
     {
       name: {
-        EN: "React Engines",
-        ES: "React",
+        EN: "Performance",
+        ES: "Rendimiento",
       },
-      icon: Layout,
+      icon: Cpu,
       type: "technical",
     },
     {
       name: {
-        EN: "Deep Systems",
-        ES: "Sistemas Profundos",
+        EN: "SEO",
+        ES: "SEO",
       },
-      icon: Database,
+      icon: Zap,
       type: "technical",
     },
     {
@@ -78,10 +78,10 @@ const Skills: React.FC<SkillsProps> = ({ t, theme, lang }) => {
     },
     {
       name: {
-        EN: "Infrastructure",
-        ES: "Infraestructura",
+        EN: "Scalability",
+        ES: "Escalabilidad",
       },
-      icon: Terminal,
+      icon: Rocket,
       type: "technical",
     },
   ];

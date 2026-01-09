@@ -26,36 +26,38 @@ const Timeline: React.FC<TimelineProps> = ({ t, theme, lang }) => {
       role: "Front-End Developer",
       company: "SCALA Colombia SAS",
       date: "2023 - PRESENT",
-      description: `Designed and developed responsive web interfaces using
-React, Next.js, and JavaScript, improving load time and
-accessibility across platforms.
-Collaborated with UX/UI and back-end teams to translate
-designs into scalable, user-focused applications.
-Implemented performance optimization strategies and
-accessibility standards, increasing usability metrics.
-Applied Agile methodologies and Git for version control and
-continuous delivery.
-`,
+      description: `
+     <ul> 
+      <li> Developed and maintained high-performance, responsive web applications using React, Next.js, and modern JavaScript, focusing on scalability and maintainability. </li>
+      <li> Led the implementation of performance optimization strategies (code splitting, component optimization, efficient data fetching), improving page load times and overall user experience.  </li>
+      <li> Collaborated closely with UX/UI designers, back-end developers, and product teams to translate complex requirements into intuitive, accessible interfaces.  </li>
+      <li> Applied web accessibility standards (WCAG) and best practices, ensuring inclusive user experiences across devices and browsers.  </li>
+      <li> Actively participated in Agile (Scrum) workflows, contributing to sprint planning, code reviews, and continuous delivery using Git-based version control. </li/>
+      </ul>`,
     },
     {
       role: "Frontend Instructor",
       company: "Educamás Colombia",
       date: "2023",
-      description: `Delivered interactive lessons on HTML, CSS, and JavaScript,
-boosting student engagement and retention.
-Designed project-based learning strategies aligned with
-industry standards.`,
+      description: `
+      <ul> 
+      <li>Delivered structured and interactive training sessions on HTML, CSS, and JavaScript, adapting content to different learning levels.</li>
+      <li>Designed project-based learning experiences aligned with real-world industry practices, increasing student engagement and completion rates.</li>
+      <li>Mentored students on problem-solving, debugging techniques, and foundational software development concepts.</li>
+      <li>Strengthened communication and leadership skills by translating technical concepts into clear, accessible explanations.</li>
+      </ul>`,
     },
     {
       role: "Front-End Developer Jr.",
       company: "Bcode",
       date: "2020 – 2023",
-      description: `Contributed to the modernization of core codebases,
-enhancing system performance and maintainability.
-Participated in multi-disciplinary teams to implement new
-features and resolve critical bugs.
-Promoted code quality and efficiency through reusable
-component design`,
+      description: `  
+      <ul> 
+      <li>Contributed to the modernization and refactoring of legacy front-end codebases, improving performance, readability, and long-term maintainability.</li>
+      <li>Developed reusable UI components, promoting consistent design systems and reducing development time across projects.</li>
+      <li>Collaborated in cross-functional teams to implement new features, fix critical bugs, and support production deployments.</li>
+      <li>Gained hands-on experience with best practices in clean code, version control, and collaborative development environments.</li>
+      </ul>`,
     },
   ];
 
@@ -63,27 +65,39 @@ component design`,
     {
       role: "Desarrollador Front-End",
       company: "SCALA Colombia SAS",
-      date: "2023 - PRESENT",
-      description: `Diseño y desarrollo de interfaces web responsivas utilizando React, Next.js y JavaScript, mejorando el tiempo de carga y la accesibilidad en todas las plataformas.
-Colaboración con equipos de UX/UI y back-end para traducir diseños en aplicaciones escalables y centradas en el usuario.
-Implementación de estrategias de optimización del rendimiento y estándares de accesibilidad, aumentando las métricas de usabilidad.
-Aplicación de metodologías ágiles y Git para el control de versiones y la entrega continua.
-`,
+      date: "2023 - Presente",
+      description: `
+      <ul>
+        <li>Desarrollé y mantuve aplicaciones web responsivas y de alto rendimiento utilizando React, Next.js y JavaScript moderno, con enfoque en escalabilidad y mantenibilidad.</li>
+        <li>Lideré la implementación de estrategias de optimización de rendimiento (code splitting, optimización de componentes y gestión eficiente de datos), mejorando los tiempos de carga y la experiencia de usuario.</li>
+        <li>Colaboré estrechamente con diseñadores UX/UI, desarrolladores back-end y equipos de producto para transformar requerimientos complejos en interfaces intuitivas y accesibles.</li>
+        <li>Apliqué estándares de accesibilidad web (WCAG) y buenas prácticas, garantizando experiencias inclusivas en distintos dispositivos y navegadores.</li>
+        <li>Participé activamente en metodologías Agile (Scrum), contribuyendo a la planificación de sprints, revisiones de código y procesos de entrega continua mediante control de versiones con Git.</li>
+      </ul>`,
     },
     {
       role: "Instructor de Front-End",
       company: "Educamás Colombia",
       date: "2023",
-      description: `Entregue lecciones interactivas sobre HTML, CSS y JavaScript, impulsando la interacción y la retención de los estudiantes.
-Diseñe estrategias de aprendizaje basadas en proyectos.`,
+      description: `
+      <ul>
+        <li>Impartí sesiones de formación estructuradas e interactivas en HTML, CSS y JavaScript, adaptando los contenidos a distintos niveles de aprendizaje.</li>
+        <li>Diseñé experiencias de aprendizaje basadas en proyectos alineadas con prácticas reales de la industria, aumentando el compromiso y la tasa de finalización de los estudiantes.</li>
+        <li>Guié a los estudiantes en resolución de problemas, técnicas de depuración y conceptos fundamentales del desarrollo de software.</li>
+        <li>Fortalecí habilidades de comunicación y liderazgo al traducir conceptos técnicos en explicaciones claras y accesibles.</li>
+      </ul>`,
     },
     {
       role: "Desarrollador Front-End Jr.",
       company: "Bcode",
       date: "2020 – 2023",
-      description: `Contribuyó a la modernización de core codebases, mejorando el rendimiento del sistema y la mantenibilidad.
-Participé en equipos multidisciplinares para implementar nuevas características y resolver problemas críticos.
-Promovió la calidad y eficiencia a través de la diseño de componentes reutilizables`,
+      description: `
+      <ul>
+        <li>Contribuí a la modernización y refactorización de bases de código front-end heredadas, mejorando el rendimiento, la legibilidad y la mantenibilidad a largo plazo.</li>
+        <li>Desarrollé componentes reutilizables de interfaz de usuario, promoviendo sistemas de diseño consistentes y reduciendo los tiempos de desarrollo entre proyectos.</li>
+        <li>Colaboré con equipos multidisciplinarios para implementar nuevas funcionalidades, corregir errores críticos y apoyar despliegues en producción.</li>
+        <li>Adquirí experiencia práctica en buenas prácticas de código limpio, control de versiones y entornos de desarrollo colaborativos.</li>
+      </ul>`,
     },
   ];
 
@@ -172,9 +186,8 @@ Promovió la calidad y eficiencia a través de la diseño de componentes reut
                           color="gray.400"
                           fontSize="sm"
                           lineHeight="relaxed"
-                        >
-                          {m.description}
-                        </Text>
+                          dangerouslySetInnerHTML={{ __html: m.description }}
+                        />
                       </Box>
                     </SpotlightCard>
                   </MotionBox>

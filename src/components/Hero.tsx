@@ -27,14 +27,11 @@ const Hero: React.FC<HeroProps> = ({ t, lang }) => {
   const titleColor = useColorModeValue("gray.800", "transparent");
 
   const downloadCVFn = () => {
-    const filePath =
+    const url =
       lang === "EN"
-        ? "../../public/assets/CV/CV_MauricioSantos_EN.pdf"
-        : "../../public/assets/CV/CV_MauricioSantos_ES.pdf";
-    const link = document.createElement("a");
-    link.href = filePath;
-    link.download = "Mauricio_Santos_CV.pdf";
-    link.click();
+        ? "https://i.ibb.co/wF2HdX3V/CV-Mauricio-Santos-EN.png"
+        : "https://i.ibb.co/rKvGT23B/CV-Mauricio-Santos-ES.png";
+    window.open(url, "_blank");
   };
 
   return (
@@ -85,7 +82,7 @@ const Hero: React.FC<HeroProps> = ({ t, lang }) => {
                 w={{ base: "200px", md: "200px" }}
                 h={{ base: "200px", md: "200px" }}
                 name="Mauricio Santos"
-                src="../../public/assets/Mauro_Photo.png"
+                src="https://i.ibb.co/4R43Cnfy/Mauro-Photo.png"
                 border="4px solid black"
               />
             </Box>

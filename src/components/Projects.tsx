@@ -32,7 +32,7 @@ const Projects: React.FC<ProjectsProps> = ({ t, theme, lang }) => {
       title: "Scholar Test App",
       description:
         "A CMS to create and manage interactive test with real-time feedback.",
-      image: "../../public/assets/Projects/ScholarTest.png",
+      image: "https://i.ibb.co/chWDFRwf/Scholar-Test.png",
       tags: ["React", "Vite", "Node js", "MYSQL", "Chakra UI"],
       codeUrl: "https://github.com/MauricioSantos12/scholar_test_frontend",
       pageUrl: "https://scholar-test-frontend.onrender.com/",
@@ -41,7 +41,7 @@ const Projects: React.FC<ProjectsProps> = ({ t, theme, lang }) => {
       title: "Luxury Shop",
       description:
         "A high-end e-commerce platform for luxury fashion brands with personalized shopping experiences.",
-      image: "../../public/assets/Projects/Luxury_Shopp.png",
+      image: "https://i.ibb.co/6ccccyZZ/Luxury-Shopp.png",
       tags: ["Next js", "Javascript", "CSS"],
       codeUrl: "https://github.com/MauricioSantos12/luxury_ibg_shop",
       pageUrl: "https://luxuryshopibague.com/",
@@ -50,7 +50,7 @@ const Projects: React.FC<ProjectsProps> = ({ t, theme, lang }) => {
       title: "Real State App",
       description:
         "Is a real estate listing platform that connects buyers and sellers with advanced search and virtual tours.",
-      image: "../../public/assets/Projects/Real_state.png",
+      image: "https://i.ibb.co/CXy5Xn0/Real-state.png",
       tags: ["React", "Javascript", "Express", "CSS", "MYSQL"],
       codeUrl: "https://github.com/MauricioSantos12/real_estate_frontend",
       pageUrl: "https://real-estate-frontend-1dq3.onrender.com/",
@@ -59,7 +59,7 @@ const Projects: React.FC<ProjectsProps> = ({ t, theme, lang }) => {
       title: "Cine Hub App",
       description:
         "A movie discovery app that can you search for movies, view details, and watch trailers.",
-      image: "../../public/assets/Projects/CineHub.png",
+      image: "https://i.ibb.co/HDZBv7LW/Cine-Hub.png",
       tags: ["React", "JavaScript", "CSS", "API"],
       codeUrl: "https://github.com/MauricioSantos12/cine_hub_frntnd",
       pageUrl: "https://cine-hub-frntnd.onrender.com/",
@@ -80,7 +80,7 @@ const Projects: React.FC<ProjectsProps> = ({ t, theme, lang }) => {
       title: "Aplicación de Pruebas Scholar",
       description:
         "Un CMS para crear y gestionar pruebas interactivas con retroalimentación en tiempo real.",
-      image: "../../public/assets/Projects/ScholarTest.png",
+      image: "https://i.ibb.co/chWDFRwf/Scholar-Test.png",
       tags: ["React", "Vite", "Node js", "MYSQL", "Chakra UI"],
       codeUrl: "https://github.com/MauricioSantos12/scholar_test_frontend",
       pageUrl: "https://scholar-test-frontend.onrender.com/",
@@ -89,7 +89,7 @@ const Projects: React.FC<ProjectsProps> = ({ t, theme, lang }) => {
       title: "Tienda de Lujo",
       description:
         "Una plataforma de comercio electrónico de alta gama para marcas de moda de lujo con experiencias de compra personalizadas.",
-      image: "../../public/assets/Projects/Luxury_Shopp.png",
+      image: "https://i.ibb.co/6ccccyZZ/Luxury-Shopp.png",
       tags: ["Next js", "Javascript", "CSS"],
       codeUrl: "https://github.com/MauricioSantos12/luxury_ibg_shop",
       pageUrl: "https://luxuryshopibague.com/",
@@ -98,7 +98,7 @@ const Projects: React.FC<ProjectsProps> = ({ t, theme, lang }) => {
       title: "Aplicación de Bienes Raíces",
       description:
         "Es una plataforma de listado de bienes raíces que conecta a los compradores y vendedores con búsqueda avanzada y tours virtuales.",
-      image: "../../public/assets/Projects/Real_state.png",
+      image: "https://i.ibb.co/CXy5Xn0/Real-state.png",
       tags: ["React", "Javascript", "Express", "CSS", "MYSQL"],
       codeUrl: "https://github.com/MauricioSantos12/real_estate_frontend",
       pageUrl: "https://real-estate-frontend-1dq3.onrender.com/",
@@ -107,7 +107,7 @@ const Projects: React.FC<ProjectsProps> = ({ t, theme, lang }) => {
       title: "Aplicación Cine Hub",
       description:
         "Es una aplicación de descubrimiento de películas que proporciona recomendaciones personalizadas y trailers para aficionados al cine.",
-      image: "../../public/assets/Projects/CineHub.png",
+      image: "https://i.ibb.co/HDZBv7LW/Cine-Hub.png",
       tags: ["React", "JavaScript", "CSS", "API"],
       codeUrl: "https://github.com/MauricioSantos12/cine_hub_frntnd",
       pageUrl: "https://cine-hub-frntnd.onrender.com/",

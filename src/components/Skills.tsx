@@ -13,9 +13,7 @@ import {
 import { motion } from "framer-motion";
 import {
   Code2,
-  Database,
   Layout,
-  Terminal,
   Cpu,
   Zap,
   Brain,
@@ -151,22 +149,25 @@ const Skills: React.FC<SkillsProps> = ({ t, theme, lang }) => {
               </Text>
             </HStack>
             <SimpleGrid columns={{ base: 2, sm: 3 }} spacing="4">
-              {technicalSkills.map((skill) => (
-                <SpotlightCard key={skill.name[lang] as any} theme={theme}>
-                  <VStack py="10" px="4" spacing="4">
-                    <Icon as={skill.icon} boxSize="8" color="brand.purple" />
-                    <Text
-                      fontSize="xs"
-                      fontWeight="bold"
-                      textAlign="center"
-                      textTransform="uppercase"
-                      letterSpacing="widest"
-                    >
-                      {skill.name[lang] as string}
-                    </Text>
-                  </VStack>
-                </SpotlightCard>
-              ))}
+              {technicalSkills.map((skill, index) => {
+                const name = skill.name[lang as keyof typeof skill.name];
+                return (
+                  <SpotlightCard key={index} theme={theme}>
+                    <VStack py="10" px="4" spacing="4">
+                      <Icon as={skill.icon} boxSize="8" color="brand.purple" />
+                      <Text
+                        fontSize="xs"
+                        fontWeight="bold"
+                        textAlign="center"
+                        textTransform="uppercase"
+                        letterSpacing="widest"
+                      >
+                        {name}
+                      </Text>
+                    </VStack>
+                  </SpotlightCard>
+                );
+              })}
             </SimpleGrid>
           </VStack>
 
@@ -184,7 +185,10 @@ const Skills: React.FC<SkillsProps> = ({ t, theme, lang }) => {
             </HStack>
             <SimpleGrid columns={1} spacing="4">
               {softSkills.map((skill) => (
-                <SpotlightCard key={skill.name[lang]} theme={theme}>
+                <SpotlightCard
+                  key={skill.name[lang as keyof typeof skill.name]}
+                  theme={theme}
+                >
                   <HStack p="6" spacing="6">
                     <Box p="3" bg="whiteAlpha.100" borderRadius="xl">
                       <Icon as={skill.icon} boxSize="6" color="brand.purple" />
@@ -195,7 +199,7 @@ const Skills: React.FC<SkillsProps> = ({ t, theme, lang }) => {
                       textTransform="uppercase"
                       letterSpacing="widest"
                     >
-                      {skill.name[lang]}
+                      {skill.name[lang as keyof typeof skill.name]}
                     </Text>
                   </HStack>
                 </SpotlightCard>

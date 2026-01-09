@@ -14,7 +14,7 @@ import {
   useColorModeValue,
 } from "@chakra-ui/react";
 import { motion } from "framer-motion";
-import { Github, ArrowUp, Globe } from "lucide-react";
+import { Github, Globe } from "lucide-react";
 import type { Translation, Theme, Project } from "../types";
 import SpotlightCard from "./SpotlightCard";
 

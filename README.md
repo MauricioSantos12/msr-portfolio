@@ -27,4 +27,3 @@ A personal portfolio built with React, Vite, and Resend to send emails.
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.# msr-portfolio
 # msr-portfolio
-# msr-portfolio
